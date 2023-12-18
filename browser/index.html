@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- type="module" -->
+    <script src="degenprime.js"></script>
+    <script>
+        const degenprime = new DeGenPrime();
+    </script>
+</head>
+
+<body>
+    <input id="inputfile" type="file" onchange="degenprime.setFile(this)">
+    <button id="runButton" disabled onClick="degenprime.run();">Run</button>
+    <div id="downloads"></div>
+    <pre id="output"></pre>
+</body>
+
+</html>

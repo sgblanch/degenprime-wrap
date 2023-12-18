@@ -1,0 +1,12 @@
+build/
+dist/
+
+*.egg-info/
+.venv/
+
+node_modules/
+
+*.wasm
+
+/html
+/degenprime
